@@ -67,3 +67,10 @@ v0.3.2
 February 10, 2015
 -switched menu locations; they still render the same menu though
 -using unicode hamburger button instead of 'menu' for now-top menu
+
+v0.3.3
+February 10, 2015
+-menus are now separate
+-footer extra > eliminated
+	*todo: move sidebar to left responsive from bottom
+	*todo: make special front page with widgets

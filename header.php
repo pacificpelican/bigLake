@@ -50,7 +50,7 @@
 					</ul>
 						<section class="top-bar-section">
 							<ul class="right">
-							<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+							<?php wp_nav_menu( array( 'theme_location' => 'lower' ) ); ?>
 							</ul>
 
 						</section>
