@@ -19,7 +19,26 @@
 <body <?php body_class(); ?>>
 
 <div class="supermegacontainer row" id="containerzero">
-	<nav class="top-bar" data-topbar>
+<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle" aria-controls="menu" aria-expanded="false">☰</button>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		</nav><!-- #site-navigation -->	
+<div class="megacontainer row" id="containerportOFF">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
+<?php if ( get_header_image() ) : ?>
+	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+		<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
+	</a>
+	<?php endif; // End header image check. ?>
+
+<div id="mn" class="keycontainer">
+	<header id="masthead" class="site-header" role="banner">
+
+		
+	</header><!-- #masthead -->
+<div id="nav-holder">
+<nav class="top-bar" data-topbar>
 					<ul class="title-area">
 
 					<li class="name">
@@ -36,29 +55,6 @@
 
 						</section>
 			</nav> 
-<div class="megacontainer row" id="containerportOFF">
-<div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
-<?php if ( get_header_image() ) : ?>
-	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-		<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
-	</a>
-	<?php endif; // End header image check. ?>
-
-<div id="mn" class="keycontainer">
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding column" id="greenlakebloginfo">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</div><!-- .site-branding -->
-
-		
-	</header><!-- #masthead -->
-<div id="nav-holder">
-<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Menu', '_s' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- #site-navigation -->
 </div><!-- #nav-holder -->
 
 	<div id="content" class="site-content">

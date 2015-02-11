@@ -62,3 +62,8 @@ v0.3.1
 February 10, 2015
 -FORKED this theme from Green Lake wre5he3os1ot to Big Lake
 -added top navigation bar via Foundation tools
+
+v0.3.2
+February 10, 2015
+-switched menu locations; they still render the same menu though
+-using unicode hamburger button instead of 'menu' for now-top menu
