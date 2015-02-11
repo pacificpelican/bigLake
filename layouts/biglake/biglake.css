@@ -1,0 +1,28 @@
+/*
+Theme Name: Big Lake
+Layout: biglake
+*/
+
+
+nav #site-navigation
+  {
+  padding: 0 1.9rem;
+}
+
+div #nav-holder {
+  padding: 0 1.0rem;
+}
+
+@media screen and (max-width: 800px) {
+  #mn {
+    
+    padding: 0 1.0rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .supermegacontainer {
+    
+    width: 97%;
+  }
+}

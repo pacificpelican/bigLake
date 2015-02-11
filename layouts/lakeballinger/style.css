@@ -1,0 +1,87 @@
+/*
+Theme Name: Lake Ballinger
+Theme URI: http://djmcloud.danieljcmkeown.com/lakeballinger/
+Author: Love Birds Consulting
+Author URI: http://lovebirdsconsulting.com/
+Description: The first 2015 theme for WordPress from LoveBirdsConsulting
+Version: 0.5.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lake_ballinger
+Tags: responsive, Love Birds Consulting, pacificpelican.us
+
+Lake Ballinger theme is (C) 2014-2015 Dan and Jessica McKeown (Love Birds Consulting)
+
+	This theme, like WordPress, is licensed under the GNU GPL (v2 or later).
+It is provided with the hope that it will be useful but without any guarantee.
+
+	Lake Ballinger theme is based on Underscores v1.0 http://underscores.me/, (C) 2012-2014 Automattic, Inc.,
+and Foundation v5.5.0 http://foundation.zurb.com/, (C) 2014 Zurb.
+
+	Foundation is licensed under the MIT license.
+
+*/
+
+.spacez {
+    padding: 3px;
+}
+
+p {
+    padding-left: 7px;
+}
+
+aside {
+    padding: 3px;
+}
+
+h1.entry-title  {
+    padding-left: 5px;
+    padding-top: 14px;
+}
+
+h1.ballingertitle {
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+div #respond {
+     padding-left: 8px;
+ }
+
+ div .nav-links {
+     padding-left: 8px;
+ }
+
+aside.widget_search {
+    width: 250px;
+}
+
+
+.widget_archive {
+    width: 250px;
+}
+
+#primary {
+	width: 100%
+}
+
+.entry-meta {
+ padding: 6px;
+}
+
+.cat-links {
+ padding: 8px;
+}
+
+
+  h1.widget-title {
+     font-size: 1.2rem;
+  line-height: 1.36rem;
+  margin: 0.6rem 0 0.68rem 0;
+ }
+
+ h3.comment-reply-title {
+     font-size: 1.1rem;
+  line-height: 1.26rem;
+  margin: 0.6rem 0 0.68rem 0;
+ }
