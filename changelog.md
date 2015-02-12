@@ -74,3 +74,13 @@ February 10, 2015
 -footer extra > eliminated
 	*todo: move sidebar to left responsive from bottom
 	*todo: make special front page with widgets
+
+v0.4.0
+February 12, 2015
+-sidebar now left/responsive on single posts
+-spacing improvements on small screens for single posts
+-footer now has a light box around it
+-front-page.php now handles home page:
+	uses 5 widget spaces (2 above 3)
+	responds on smaller screens
+

@@ -14,10 +14,10 @@ Layout: greenlake
   width: 95%; }
 @media screen and (max-width: 600px) {
 	#containerport {
-  padding: 0 0.5rem;
+  padding-left: 0 0.9rem;
   margin: 0 auto;
-  max-width: 1248px;
-  width: 99%; }
+
+  width: 90%; }
 									}
 /*
 This #containerport section is off by default in Green Lake theme.

@@ -13,7 +13,9 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area column">
+<div class="row">
+            
+	<div id="primary0" class="content-area0 large-8 columns">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -42,7 +44,7 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-	<div id="greenlakesidebar" class="sidebararea-area column">
+	<div id="greenlakesidebar" class="sidebararea-area large-3 columns">
 <?php get_sidebar(); ?>
 	</div><!-- #greenlakesidebar -->
 

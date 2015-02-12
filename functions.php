@@ -88,12 +88,63 @@ function greenlake_widgets_init() {
 	register_sidebar( array(
 		'name'          => __( 'Sidebar', 'greenlake' ),
 		'id'            => 'sidebar-1',
-		'description'   => '',
+		'description'   => 'Single Post right responsive',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
+
+
+register_sidebar(array(
+            'name' => __('Home Widget 0', 'greenlake'),
+            'description' => __('Top Left front page', 'greenlake'),
+            'id' => 'home-widget-0',
+            'before_title' => '<div id="widget-title-one" class="widget-title-home"><h3>',
+            'after_title' => '</h3></div>',
+            'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+            'after_widget' => '</div>'
+        ));
+
+register_sidebar(array(
+            'name' => __('Home Widget 00', 'greenlake'),
+            'description' => __('Top Right front page', 'greenlake'),
+            'id' => 'home-widget-00',
+            'before_title' => '<div id="widget-title-one" class="widget-title-home"><h3>',
+            'after_title' => '</h3></div>',
+            'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+            'after_widget' => '</div>'
+        ));
+
+	register_sidebar(array(
+            'name' => __('Home Widget 1', 'greenlake'),
+            'description' => __('Lower Left front page', 'greenlake'),
+            'id' => 'home-widget-1',
+            'before_title' => '<div id="widget-title-one" class="widget-title-home"><h3>',
+            'after_title' => '</h3></div>',
+            'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+            'after_widget' => '</div>'
+        ));
+
+        register_sidebar(array(
+            'name' => __('Home Widget 2', 'greenlake'),
+            'description' => __('Lower Middle front page', 'greenlake'),
+            'id' => 'home-widget-2',
+            'before_title' => '<div id="widget-title-two" class="widget-title-home"><h3>',
+            'after_title' => '</h3></div>',
+            'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+            'after_widget' => '</div>'
+        ));
+
+        register_sidebar(array(
+            'name' => __('Home Widget 3', 'greenlake'),
+            'description' => __('Lower Right front page', 'greenlake'),
+            'id' => 'home-widget-3',
+            'before_title' => '<div id="widget-title-three" class="widget-title-home"><h3>',
+            'after_title' => '</h3></div>',
+            'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+            'after_widget' => '</div>'
+        ));
 }
 add_action( 'widgets_init', 'greenlake_widgets_init' );
 

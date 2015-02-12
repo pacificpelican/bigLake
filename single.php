@@ -6,8 +6,10 @@
  */
 
 get_header(); ?>
-
-	<div id="primary" class="content-area column">
+<div class="singlepostsupercontainer" id="containerportplus1">
+<div class="row">
+            
+	<div id="primary0" class="content-area0 large-8 columns">
 		<main id="main" class="site-main" role="main">
 	
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -28,8 +30,14 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-	<div id="greenlakesidebar" class="sidebararea-area column">
+	<div id="greenlakesidebar" class="sidebararea-area large-3 columns">
 <?php get_sidebar(); ?>
 	</div><!-- #greenlakesidebar -->
 	
+</div><!-- .row -->
+<div class="row">
+	<div id="greenlakefooter" class="footera-area large-12 columns">
 <?php get_footer(); ?>
+	</div><!-- #greenlakefooter -->
+</div><!-- .row -->
+</div><!-- #containerportplus1 -->

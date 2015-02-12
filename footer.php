@@ -15,11 +15,13 @@
 	
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+	<ul class="pricing-table">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'greenlake' ) ); ?>"><?php printf( __( 'Powered by %s', 'greenlake' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			Theme: <a class="grey-text text-lighten-3" href="<?php $my_theme = wp_get_theme(); echo $my_theme->get( 'ThemeURI' ); ?>"><?php echo wp_get_theme(); ?></a> version <?php $my_theme = wp_get_theme(); echo $my_theme->get( 'Version' ); ?>
 		</div><!-- .site-info -->
+	</ul>
 	</footer><!-- #colophon -->
 
 	</div><!-- #greenlakefooter -->

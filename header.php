@@ -18,12 +18,13 @@
 
 <body <?php body_class(); ?>>
 
-<div class="supermegacontainer row" id="containerzero">
+<div class="supermegacontainer" id="containerzero">
+
+<div class="megacontainer row" id="containerport">
 <nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="menu" aria-expanded="false">☰</button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->	
-<div class="megacontainer row" id="containerportOFF">
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
 <?php if ( get_header_image() ) : ?>

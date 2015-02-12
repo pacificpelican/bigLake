@@ -3,26 +3,18 @@ Theme Name: Big Lake
 Layout: biglake
 */
 
+@media screen and (max-width: 1000px) {
+	.frontpagesupercontainer {
+  padding: 0 1.4rem;
+  margin: 1 auto;
 
-nav #site-navigation
-  {
-  padding: 0 1.9rem;
-}
+  width: 90%; }
+									}
 
-div #nav-holder {
-  padding: 0 1.0rem;
-}
+@media screen and (max-width: 1000px) {
+	#containerportplus1 {
+  padding: 0 0.9rem;
+  margin: 1 auto;
 
-@media screen and (max-width: 800px) {
-  #mn {
-    
-    padding: 0 1.0rem;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .supermegacontainer {
-    
-    width: 97%;
-  }
-}
+  width: 95%; }
+									}
