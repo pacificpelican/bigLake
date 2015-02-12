@@ -18,3 +18,7 @@ Layout: biglake
 
   width: 95%; }
 									}
+
+ #menu4 li a {
+  padding: 5px 10px; margin: 0px; border: 1px solid ccc; background: #efefef; display: block; text-decoration: none; color: #0DA4D3;
+  }

@@ -84,3 +84,6 @@ February 12, 2015
 	uses 5 widget spaces (2 above 3)
 	responds on smaller screens
 
+v0.4.1
+February 12, 2015
+-spacing and formatting for top menu

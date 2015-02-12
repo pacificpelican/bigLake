@@ -21,10 +21,12 @@
 <div class="supermegacontainer" id="containerzero">
 
 <div class="megacontainer row" id="containerport">
+<div class="toptiermenu" id="menu4">
 <nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="menu" aria-expanded="false">☰</button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->	
+</div><!-- .menu4 -->
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
 <?php if ( get_header_image() ) : ?>
