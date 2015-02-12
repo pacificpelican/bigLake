@@ -4,7 +4,7 @@ Theme URI: http://djmcloud.danieljmckeown.com/biglake/
 Author: Dan McKeown
 Author URI: http://danmckeown.info
 Description: Love Birds Consulting responsive theme with header
-Version: 0.4.1
+Version: 0.4.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: greenlake
@@ -608,7 +608,7 @@ a:active {
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 60px) {
 	.menu-toggle,
 	.main-navigation.toggled .nav-menu {
 		display: block;

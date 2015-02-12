@@ -87,3 +87,8 @@ February 12, 2015
 v0.4.1
 February 12, 2015
 -spacing and formatting for top menu
+
+v0.4.2
+February 12, 2015
+-adjusted media query top menu:
+	only super-small screens (>60px) will show button
