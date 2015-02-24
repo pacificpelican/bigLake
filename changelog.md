@@ -92,3 +92,7 @@ v0.4.2
 February 12, 2015
 -adjusted media query top menu:
 	only super-small screens (>60px) will show button
+
+v0.4.3
+February 23, 2015
+-updated screenshot and readme.md
