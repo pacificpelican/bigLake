@@ -104,3 +104,7 @@ February 23, 2015
 v0.4.5
 February 23, 2015
 -markdown bugfix readme.md: a a
+
+v0.4.6
+February 23, 2015
+-archives pages now have the responsive sidebar
