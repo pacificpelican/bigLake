@@ -99,4 +99,8 @@ February 23, 2015
 
 v0.4.4
 February 23, 2015
--markdown bigfix readme.md: flipped [] and ()
+-markdown bugfix readme.md: flipped [] and ()
+
+v0.4.5
+February 23, 2015
+-markdown bugfix readme.md: a a
